@@ -1,7 +1,7 @@
 # Rekomendasi-NPK-Cabai
 
 ## Gambaran Umum Sistem
-Sistem Anda akan bekerja dalam dua tahap utama:
+Sistem bekerja dalam dua tahap utama:
 1. Tahap Prediksi (Model ML): Model XGBoost akan memprediksi kadar N, P, dan K optimal yang seharusnya ada di tanah berdasarkan kondisi lingkungan saat itu (cahaya, suhu, kelembaban udara). Ini adalah jantung dari kecerdasan sistem Anda.
 2. Tahap Kalkulasi (Logika Dosis): Setelah mengetahui kadar optimal dari model, sistem akan mengambil data kadar N, P, K saat ini dari sensor Anda. Kemudian, sistem akan menghitung selisihnya dan merekomendasikan berapa gram pupuk NPK yang perlu ditambahkan.
 Berikut adalah diagram alurnya
